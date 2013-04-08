@@ -48,7 +48,7 @@ CP            = cp
 VPATH=.:$(srcdir)
 
 srcdir        = .
-
+#commentario
 CC_FLAGS      = $(C_INCS) $(CFLAGS) $(MPE_COPTS)
 FC_FLAGS      = $(F_INCS) $(FFLAGS) $(MPE_FOPTS)
 CC_LDFLAGS    = $(LDFLAGS) $(CFLAGS) $(MPE_LDOPTS)
